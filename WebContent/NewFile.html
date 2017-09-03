@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Test Page</title>
+</head>
+<body>
+	<h1>This is my test page to run</h1>
+	<form>
+		<input type="button" onclick="myPromptFunction()" id="promptBox" value="Submit" />
+	</form>
+	
+	<script>
+		function myPromptFunction() {
+			var txt = "Test error prompt";
+			alert(txt);
+		}
+		document.getElementById("demo").innerHTML = txt;
+	</script>
+</body>
+</html>
