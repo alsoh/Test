@@ -18,7 +18,7 @@ public class FirstTestCase {
 		
 		WebElement link = driver.findElement(By.id("promptBox"));
 		link.click();
-		System.out.println("Successfully opened the website");
+		System.out.println("Successfully opened the website with promptBox");
 		
 		try {
 			Thread.sleep(5000);
